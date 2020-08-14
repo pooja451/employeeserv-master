@@ -30,6 +30,7 @@ public class Employee {
 
     /**
      * employee id
+     * (Required)
      * 
      */
     @JsonProperty("id")
@@ -70,6 +71,7 @@ public class Employee {
 
     /**
      * employee id
+     * (Required)
      * 
      */
     @JsonProperty("id")
@@ -79,6 +81,7 @@ public class Employee {
 
     /**
      * employee id
+     * (Required)
      * 
      */
     @JsonProperty("id")

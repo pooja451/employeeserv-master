@@ -20,13 +20,15 @@ public interface EmployeeResource {
      * @param id employee id.
      * @return {@link Employee} resource.
      */
+
     @RequestMapping("/v1/bfs/employees/{id}")
     ResponseEntity<Employee> employeeGetById(@PathVariable("id") String id);
-
-    @PostMapping("/v1/bfs/add/employees")
-    ResponseEntity<String> addEmployee(@RequestBody Map<String,Object> employee);
 
     // ----------------------------------------------------------
     // TODO - add a new operation for creating employee resource.
     // ----------------------------------------------------------
+
+    @PostMapping("/v1/bfs/add/employees")
+    ResponseEntity<String> addEmployee(@RequestBody Map<String,Object> employee);
+
 }
